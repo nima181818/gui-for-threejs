@@ -1,0 +1,24 @@
+@import "../globalproperty.less";
+.rightmenu{
+    width:180px;
+    flex-shrink: 0;
+    background: @globalbg;
+    color:@fontwhitecl;
+    .menucontainers{
+        display: flex;
+        flex-wrap:wrap;
+        .items{
+            width:80px;
+            margin-left:5px;
+           margin-top:20px;
+            height:20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            span{
+                font-size:10px
+            }
+            
+        }
+    }
+}

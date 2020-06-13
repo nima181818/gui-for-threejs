@@ -1,0 +1,27 @@
+@import "../globalproperty.less";
+.leftmesh{
+   
+      width:60px;
+    background: @globalbg;
+   flex-shrink: 0;
+    .leftmenulist{
+        display: flex;
+        flex-wrap: wrap;
+     
+        .items{
+            width:30px;
+            height:20px;
+            margin-top:10px;
+            font-size: 12px;
+            color:@fontwhitecl;
+            cursor: pointer;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 5px;
+        }
+        .items:hover{
+            background: @globalbgdp;
+        }
+    }
+  
+}
